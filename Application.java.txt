@@ -20,6 +20,7 @@ double square_root = Math.sqrt(num);
 return((square_root - Math.floor(square_root)) == 0);   
 }   
 
+
 //feature 202 changes by vivek
 
 
@@ -30,3 +31,17 @@ int N=sc.nextInt();
 //calling user-defined function   
 isSunnyNumber(N);   
 
+
+// feature 201 changes by mahender
+
+2.	//function that checks whether the given number is Sunny or not  
+3.	static void isSunnyNumber(int N)   
+4.	{   
+5.	//checks N+1 is perfect square or not  
+6.	if (findPerfectSquare(N + 1))   
+7.	{   
+8.	System.out.println("The given number is a sunny number.");   
+9.	}   
+10.	//executes if N+1 is not a perfect square  
+11.	else  
+12.	{   
