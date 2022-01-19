@@ -19,6 +19,19 @@ double square_root = Math.sqrt(num);
 //if square root is an integer   
 return((square_root - Math.floor(square_root)) == 0);   
 }   
+
+
+//feature 202 changes by vivek
+
+
+Scanner sc = new Scanner(System.in);  
+System.out.print("Enter a number to check: ");  
+//reading a number from the user  
+int N=sc.nextInt();  
+//calling user-defined function   
+isSunnyNumber(N);   
+
+
 // feature 201 changes by mahender
 
 2.	//function that checks whether the given number is Sunny or not  
